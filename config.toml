@@ -1,0 +1,3 @@
+baseURL = 'https://map.voc-kaap.org'
+languageCode = 'en-uk'
+title = 'Stigting VOC Map'

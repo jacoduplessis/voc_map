@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buitepos XXX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.47076416015625,
+            -33.92968762757659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buitepos XXX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.450164794921875,
+            -34.21293781333384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buitepos XXX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.87176513671875,
+            -34.156136287732515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buitepos XXX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.0006103515625,
+            -34.82733206198157
+          ]
+        }
+      }
+    ]
+  }
