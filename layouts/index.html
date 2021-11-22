@@ -1,61 +1,52 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Stigting VOC Map</title>
 
-    
-    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
-
-    <style>
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Stigting VOC Map</title>
 
 
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
+  <style>
+    html {
+      font-family:
+        system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue", Arial,
+        "Noto Sans",
+        "Liberation Sans",
+        sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
+    body {
+      margin: 0;
+    }
 
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
+    #map {
+      height: 90vh;
+      width: 100%;
+    }
 
-#map {
-    height: 90vh;
-    width: 100%;
-}
+    .leaflet-control-layers-list {
+      text-align: left;
+    }
+  </style>
 
-.leaflet-control-layers-list {
-    text-align: left;
-}
+</head>
 
-    </style>
+<body>
 
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="container-fluid d-flex w-100 h-100 mx-auto p-0 flex-column">
-  <header class="mb-auto p-2">
-    <div>
-      <h3 class="float-md-start mb-0">Stigting VOC Map</h3>
+  <header>
+    <div style="padding-left: 1rem; padding-right: 1rem;">
+      <h1 style="margin: 0.5rem">Stigting VOC Map</h1>
       <!-- <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link" href="#">Features</a>
@@ -66,64 +57,63 @@
 
   <main id="map"></main>
 
-  <footer class="mt-auto text-white-50 p-2">
-    <p class="mb-0">Made by <a href="https://www.voc-kaap.org/" class="text-white">VOC Foundation</a>, in Cape Town, South Africa.</p>
+  <footer style="text-align: center; padding: 0.5rem">
+    <p style="margin: 0">Made by <a href="https://www.voc-kaap.org/">VOC Foundation</a>, in Cape Town, South Africa.</p>
   </footer>
-</div>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
 
-<script type="application/json" id="buitepos_layer_data">{{ .Site.Data.buiteposte }}</script>
-<script type="application/json" id="skeepswrak_layer_data">{{ .Site.Data.skeepswrakke }}</script>
-<script type="application/json" id="plaas_layer_data">{{ .Site.Data.plase }}</script>
+  <script type="application/json" id="buitepos_layer_data">{{ .Site.Data.buiteposte }}</script>
+  <script type="application/json" id="skeepswrak_layer_data">{{ .Site.Data.skeepswrakke }}</script>
+  <script type="application/json" id="plaas_layer_data">{{ .Site.Data.plase }}</script>
 
 
-    <script>
-        const map = L.map('map').setView([-33.5, 19], 9);
+  <script>
+    const map = L.map('map').setView([-33.5, 19], 9);
 
-const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-})
+    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    })
 
-const buiteposLayerData = JSON.parse(document.getElementById('buitepos_layer_data').textContent)
-const skeepswrakLayerData = JSON.parse(document.getElementById('skeepswrak_layer_data').textContent)
-const plaasLayerData = JSON.parse(document.getElementById('plaas_layer_data').textContent)
+    const buiteposLayerData = JSON.parse(document.getElementById('buitepos_layer_data').textContent)
+    const skeepswrakLayerData = JSON.parse(document.getElementById('skeepswrak_layer_data').textContent)
+    const plaasLayerData = JSON.parse(document.getElementById('plaas_layer_data').textContent)
 
-function bindPopup(feature, layer) {
-    return layer.bindPopup(feature.properties.name)
-}
+    function bindPopup(feature, layer) {
+      return layer.bindPopup(feature.properties.name)
+    }
 
-const buiteposLayer = L.geoJSON(buiteposLayerData, {
-    onEachFeature: bindPopup
-})
-const skeepswrakLayer = L.geoJSON(skeepswrakLayerData, {
-    onEachFeature: bindPopup
-})
-const plaasLayer = L.geoJSON(plaasLayerData, {
-    onEachFeature: bindPopup
-})
+    const buiteposLayer = L.geoJSON(buiteposLayerData, {
+      onEachFeature: bindPopup
+    })
+    const skeepswrakLayer = L.geoJSON(skeepswrakLayerData, {
+      onEachFeature: bindPopup
+    })
+    const plaasLayer = L.geoJSON(plaasLayerData, {
+      onEachFeature: bindPopup
+    })
 
-osmLayer.addTo(map);
-buiteposLayer.addTo(map);
-skeepswrakLayer.addTo(map);
-plaasLayer.addTo(map)
+    osmLayer.addTo(map);
+    buiteposLayer.addTo(map);
+    skeepswrakLayer.addTo(map);
+    plaasLayer.addTo(map)
 
-const baseLayers = {
-    "OpenStreetMap": osmLayer
-};
+    const baseLayers = {
+      "OpenStreetMap": osmLayer
+    };
 
-const overlays = {
-    "Buiteposte": buiteposLayer,
-    "Skeepswrakke": skeepswrakLayer,
-    "Plase": plaasLayer,
-};
+    const overlays = {
+      "Buiteposte": buiteposLayer,
+      "Skeepswrakke": skeepswrakLayer,
+      "Plase": plaasLayer,
+    };
 
-L.control.layers(baseLayers, overlays).addTo(map);
+    L.control.layers(baseLayers, overlays).addTo(map);
 
-    </script>
+  </script>
 
-  </body>
+</body>
+
 </html>
-
