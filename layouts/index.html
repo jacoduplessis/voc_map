@@ -77,6 +77,14 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     })
 
+    const flagIcon = L.icon({
+    iconUrl: '/voc-flag-animated.gif',
+
+    iconSize:     [32, 24], // size of the icon
+    iconAnchor:   [3, 24], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+});
+
     const buiteposLayerData = JSON.parse(document.getElementById('buitepos_layer_data').textContent)
     const skeepswrakLayerData = JSON.parse(document.getElementById('skeepswrak_layer_data').textContent)
     const plaasLayerData = JSON.parse(document.getElementById('plaas_layer_data').textContent)
@@ -86,7 +94,12 @@
     }
 
     const buiteposLayer = L.geoJSON(buiteposLayerData, {
-      onEachFeature: bindPopup
+      onEachFeature: bindPopup,
+      pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {
+                icon: flagIcon
+            });
+        }
     })
     const skeepswrakLayer = L.geoJSON(skeepswrakLayerData, {
       onEachFeature: bindPopup
@@ -97,8 +110,8 @@
 
     osmLayer.addTo(map);
     buiteposLayer.addTo(map);
-    skeepswrakLayer.addTo(map);
-    plaasLayer.addTo(map)
+    // skeepswrakLayer.addTo(map);
+    // plaasLayer.addTo(map)
 
     const baseLayers = {
       "OpenStreetMap": osmLayer
@@ -106,8 +119,8 @@
 
     const overlays = {
       "Buiteposte": buiteposLayer,
-      "Skeepswrakke": skeepswrakLayer,
-      "Plase": plaasLayer,
+      // "Skeepswrakke": skeepswrakLayer,
+      // "Plase": plaasLayer,
     };
 
     L.control.layers(baseLayers, overlays).addTo(map);
