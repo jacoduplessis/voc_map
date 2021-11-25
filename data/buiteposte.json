@@ -1,57 +1,798 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Buitepos XXX"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            18.47076416015625,
-            -33.92968762757659
-          ]
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos 't Nieuwland"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Buitepos XXX"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            18.450164794921875,
-            -34.21293781333384
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Buitepos XXX"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            18.87176513671875,
-            -34.156136287732515
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Buitepos XXX"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.0006103515625,
-            -34.82733206198157
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.458329439163208,
+          -33.97054673674738
+        ]
       }
-    ]
-  }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Vishoek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.433368802070618,
+          -34.1421918827171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruitery-stalle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.466330468654633,
+          -34.10793597107322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muijsenburg Poshuis 1743 – 1795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.466732800006866,
+          -34.110241153515055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Simons Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427875638008118,
+          -34.19145757755887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Goewerneurshuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42763155698776,
+          -34.19131114800192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospitaal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427003920078278,
+          -34.19203885601949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kerkhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.426979780197144,
+          -34.1917859338229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ekwipasiestoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427754938602448,
+          -34.19176152900942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42796951532364,
+          -34.191712719361256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Battery Zoutman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427226543426514,
+          -34.175142430192594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Battery Boetselaer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.44308912754059,
+          -34.19255135393419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kompanjiestuin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.452181816101074,
+          -34.20582196847965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baas Harmens Craal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.487844467163086,
+          -34.05413499754632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sein herleipos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.453340530395508,
+          -34.00313273259371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Kerstenbosch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43008041381836,
+          -33.98518217890584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "'t Houtveld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42570304870605,
+          -34.057974930799325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "'t Rietveld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.497114181518555,
+          -34.05287275927798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Witte Boomen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.435981273651123,
+          -34.01875854508385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Paradijs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.44053030014038,
+          -33.97632114220461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Rustenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.470104336738586,
+          -33.95846281384273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Riet Valleij aan de Diepe Rivier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.489174842834473,
+          -33.834454669653745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Jan Biesjes Craal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.497071266174316,
+          -33.87052244872696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Paarden Eijland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.470335006713867,
+          -33.9136625852375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos De Schuer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.46399426460266,
+          -33.96371303543308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Aan 't Steenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.420360088348385,
+          -34.076940937714255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Agter De Steenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.424243927001953,
+          -34.12423967912802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soutpan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.378968238830566,
+          -34.12225018223565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Elsjes Corael"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.620388507843018,
+          -33.85133215184795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Bommelshok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.54112386703491,
+          -33.80236578995131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Vissershok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.556959629058838,
+          -33.78075249643814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos De Kuilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.67654323577881,
+          -33.92295747693422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Hottentots Holland 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.85580062866211,
+          -34.08712430444416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Hottentots Holland 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.891677856445312,
+          -34.07702980310399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Leeuwenkop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.394374847412106,
+          -33.94182904084767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Matroos Schansen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.39358627796173,
+          -33.90905482772334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kampsbaai Battery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.37815284729004,
+          -33.944267796275426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Von Kamptz Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.377938270568844,
+          -33.94759649565839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Robben Eijland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.37238073348999,
+          -33.798032868921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skulpbanke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.363561630249023,
+          -33.79138149753439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leisteengroef"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.377358913421627,
+          -33.8162367940882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vuurbaken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.37410271167755,
+          -33.81466349313879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walvisrots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.37201595306396,
+          -33.821264032034094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Ganze Craal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.353047370910645,
+          -33.514026766107754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slagtersveld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.350300788879395,
+          -33.501753116546496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Dassen Eijland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.08845281600952,
+          -33.42503024706414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rots Reepermunden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.089096546173096,
+          -33.43178157564348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VOC Baken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.124351501464844,
+          -33.19445474940037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oostenwal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.052124977111816,
+          -33.12083953866211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Saldanha Baaij 1 (Oudepos)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.025732040405273,
+          -33.1364731171396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Konstabel Seinkanon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.02178382873535,
+          -33.13151380063321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Saldanha Baaij 2 (Nuwepos)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.013458251953125,
+          -33.122097515771635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruidegom Punt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.011956214904785,
+          -33.0965570508772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riet Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.99388885498047,
+          -33.091325821711315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salamander Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.99680709838867,
+          -33.07715859385553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Groene Cloof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.470892906188965,
+          -33.50669141224953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Claver Valleij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.41059684753418,
+          -33.48371520839334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos 't Land van Waveren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.100782871246338,
+          -33.32150093232662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos 't Warme Bad by de Olifantsrivier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.035444259643555,
+          -32.739566140749204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Tygerhoek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.902881383895874,
+          -34.149202108539136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos St. Helena Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.008136749267578,
+          -32.78186260719501
+        ]
+      }
+    }
+  ]
+}
