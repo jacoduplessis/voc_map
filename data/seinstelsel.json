@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Seinkanon Piekenierskloof"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.946244716644287,
+            -32.63080970157064
+          ]
+        }
+      }
+    ]
+  }

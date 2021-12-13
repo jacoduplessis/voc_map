@@ -793,6 +793,381 @@
           -32.78186260719501
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Rio de Lagoa (Fort Lijdzaamheid)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57064342498779,
+          -25.975368431760913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Mauritius"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.72184610366821,
+          -20.37592910455388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos St Helena Eijland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7186198234558105,
+          -15.924232144639687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Plettenbergs Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.376854360103607,
+          -34.05655275358068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Mossel Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.14205652475357,
+          -34.18039699318446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.448158264160156,
+          -33.96970145189153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Riet Valleij aan de Buffeljagtsrivier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.61758279800415,
+          -34.00962530892975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Tijgerhoek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.904994964599606,
+          -34.14850066818291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Zoetemelks Valleij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.747152328491207,
+          -34.11109392185375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos 't Ziekenhuijs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.710330963134766,
+          -34.12907111953861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos 't Warme Bad aan de Zwarte Rivier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.44002330303192,
+          -34.22612538072557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Hout Baaij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.355472087860107,
+          -34.03759996494796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Hout Kappers Kloof (sein-herleistasie)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.405441641807556,
+          -34.01193316681889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conway Reduit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4050854110718,
+          -34.01282249800912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hout Baaij Oos Batterij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.36330413818359,
+          -34.055610548032504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hout Baaij Wes Batterij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.347838521003723,
+          -34.055619436813025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hout Baaij Intermediaire Batterij"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.361453413963318,
+          -34.048390328212335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reduit Duijnhoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.448635935783383,
+          -33.92501396826896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kasteel De Goede Hoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427698612213135,
+          -33.9258685994154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort De Goede Hoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.424048125743866,
+          -33.92374981064343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wagenaer se Reservoir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.423742353916168,
+          -33.92294634859931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VOC Eerste Kaai (1652)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.424922525882717,
+          -33.922930768928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VOC Kaai (1687)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427746891975403,
+          -33.92449762446293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reduit Santhoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43851327896118,
+          -33.926500664851666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reduit Kijckuijt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.469465970993042,
+          -33.912184568419285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Keert de Koe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.475763797760006,
+          -33.925076285413205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Ruijterwacht II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.481332063674927,
+          -33.94240758404039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Coornhoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.47525417804718,
+          -33.9435691088869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buitepos Houd den Bul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.44504714012146,
+          -33.98498646317167
+        ]
+      }
     }
   ]
 }

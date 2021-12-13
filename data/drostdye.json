@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "properties": {
+      "name": "VOC Drostdy Stellenbosch"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.864057809114456,
+        -33.93900302336097
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "VOC Drostdy Swellendam"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        20.45275568962097,
+        -34.01946550729838
+      ]
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+    "type": "Feature",
+    "properties": {
+      "name": "VOC Drostdy Graaff-Reinet"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.535751044750214,
+        -32.25207045122236
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "VOC Kruijthuijs"
+    },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.85786458849907,
+        -33.936808901004085
+      ]
+    }
+  }
+]
+  }
